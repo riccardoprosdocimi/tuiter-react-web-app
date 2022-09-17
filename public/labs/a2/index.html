@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Lab and Challenge</title>
 </head>
 <body>
 
@@ -177,9 +177,7 @@
     <form id="textarea">
         <label for="text-area">Biography:</label>
         <br/>
-        <textarea id="text-area" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
+        <textarea id="text-area" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</textarea>
     </form>
 
     <h3>Buttons</h3>
@@ -190,9 +188,7 @@
 
     <h3>Select one</h3>
 
-    <label for="select-one-genre">
-        Favorite movie genre:
-    </label>
+    <label for="select-one-genre">Favorite movie genre:</label>
     <br/>
     <select id="select-one-genre">
         <option value="COMEDY">Comedy</option>
@@ -203,9 +199,7 @@
 
     <h3>Select many</h3>
 
-    <label for="select-many-genre">
-        Favorite movie genres:
-    </label>
+    <label for="select-many-genre">Favorite movie genres:</label>
     <br/>
     <select id="select-many-genre" multiple>
         <option selected value="COMEDY">Comedy</option>
@@ -260,10 +254,96 @@
 
     <h2>Anchor tag</h2>
 
-    Please
-    <a href="https://www.lipsum.com">click here</a> to get dummy text
+    Please <a href="https://www.lipsum.com">click here</a> to get dummy text
     <br/>
     Checkout my <a href="other-page.html">other page</a>
+
+    <a id="top"></a>
+    <h2>Table of content</h2>
+
+    <ul>
+        <li><a href="#embedding-website">Embedding other websites</a></li>
+        <li><a href="#embedding-youtube">Embedding YouTube videos</a></li>
+        <li><a href="#embedding-slides">Embedding Google slides</a></li>
+    </ul>
+
+    <a id="embedding-website"></a>
+    <h2>Embedding other websites</h2>
+    <a href="#top">Top</a>
+    <br/>
+
+    <iframe width="600"
+            height="400"
+            src="https://www.virtus.it/en/">
+    </iframe>
+
+    <a id="embedding-youtube"></a>
+    <h2>Embedding YouTube</h2>
+    <a href="#top">Top</a>
+    <br/>
+
+    <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube-nocookie.com/embed/OHpDE14LTW8"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+    </iframe>
+
+    <a id="embedding-slides"></a>
+    <h2>Embedding Google slides</h2>
+    <a href="#top">Top</a>
+    <br/>
+
+    <iframe
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTGGtKl56XrAvgZKqWIbmDuQxJOtGyA9I-uhMepUfzroUe1CHIssQRrsRRvesnpMojisut2rpRNshdM/embed?start=false&loop=true&delayms=3000"
+            frameborder="0"
+            width="1440"
+            height="839"
+            allow="fullscreen">
+    </iframe>
+
+    <a id="table-of-content"></a>
+    <h2>Table of content</h2>
+
+    <ul>
+        <li><a href="#drawing-rectangles">Drawing rectangles</a></li>
+        <li><a href="#drawing-circles">Drawing circles</a></li>
+        <li><a href="#drawing-polygons">Drawing polygons</a></li>
+    </ul>
+
+    <a id="drawing-rectangles"></a>
+    <h2>Drawing rectangles</h2>
+    <a href="#table-of-content">Up</a>
+    <br/>
+
+    <svg width="300" height="100">
+        <rect width="300" height="100"
+              style="fill:rgb(255,255,0); stroke-width:10;
+   stroke:rgb(0,0,0)"/>
+    </svg>
+
+    <a id="drawing-circles"></a>
+    <h2>Drawing circles</h2>
+    <a href="#table-of-content">Up</a>
+    <br/>
+
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40"
+                stroke="green" stroke-width="4" fill="gold"/>
+    </svg>
+
+    <a id="drawing-polygons"></a>
+    <h2>Drawing polygons</h2>
+    <a href="#table-of-content">Up</a>
+    <br/>
+
+    <svg width="300" height="200">
+        <polygon points="100,10 40,198 190,78 10,78 160,198"
+                 style="fill:fuchsia; stroke:aqua; stroke-width:5; fill-rule:evenodd;"/>
+    </svg>
 
 </body>
 </html>
