@@ -13,3 +13,7 @@ body {
 .wd-offset {
     margin-left: 16px;
 }
+
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+}

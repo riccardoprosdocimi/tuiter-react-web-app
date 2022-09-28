@@ -51,10 +51,6 @@
     color: rgb(29, 161, 242);
 }
 
-a, a:link, a:hover, a:visited {
-    text-decoration: none;
-}
-
 .wd-font-color {
     color: rgb(110, 118, 125);
 }
