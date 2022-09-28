@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, serif;
+    background-color: black;
+    color: white;
+}
+
+.wd-border-color {
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(47, 51, 54);
+}
+
+.wd-offset {
+    margin-left: 16px;
+}

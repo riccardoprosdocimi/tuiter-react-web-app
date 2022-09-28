@@ -1,0 +1,64 @@
+h1 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 12px;
+}
+
+h5, p {
+    font-size: 15px;
+    margin-top: 12px;
+}
+
+h6 {
+    font-size: 15px;
+    color: lightgray;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+
+#title-handle {
+    margin-top: 0;
+    margin-bottom: 12px;
+    font-size: 13px;
+}
+
+#title {
+    border-bottom-width: 0;
+}
+
+.wd-post {
+    border-top-width: 0;
+}
+
+.wd-avatar {
+    border-radius: 50%;
+    width: 48px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.wd-post-image {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 504px;
+    height: 264px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-avatar {
+    float: left;
+}
+
+.wd-grid-col-author {
+    float: left;
+    margin-bottom: 0;
+}
+
+.wd-content {
+    width: 506px;
+    margin-right: 16px;
+    margin-bottom: 12px;
+}

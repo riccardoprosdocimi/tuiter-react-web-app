@@ -1,0 +1,112 @@
+/* borders -> rgb(47, 51, 54)
+   prefix classes -> wd-
+   content offset -> 16px from left border
+   2 posts of each C,D,E
+ */
+
+#search-field {
+    border-radius: 50px;
+    background-color: darkgray;
+    margin-top: 5px;
+    width: 115%;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+::-ms-input-placeholder {
+    color: white;
+}
+
+.wd-grid-settings {
+    float: right;
+    margin-right: 12px;
+}
+
+.wd-nav-tabs {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.wd-nav-tabs li {
+    font-size: 15px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 16px;
+}
+
+#first-li {
+    margin-left: 0;
+    margin-bottom: 0;
+}
+
+.wd-selected {
+    padding-bottom: 15px;
+    border-bottom: solid 4px rgb(29, 161, 242);
+}
+
+.wd-highlight-color {
+    color: rgb(29, 161, 242);
+}
+
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+}
+
+.wd-font-color {
+    color: rgb(110, 118, 125);
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-tuits-count {
+    margin-top: 0;
+}
+
+.wd-top-tuit {
+    margin-top: 10px;
+}
+
+.wd-bottom-tuit {
+    margin-bottom: 10px;
+}
+
+h5, h6, span {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+h4 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.wd-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-grid-col-left-sidebar {
+    width: 75%;
+    float: left;
+}
+
+.wd-grid-col-right-sidebar {
+    float: right;
+    margin-right: 16px;
+}
