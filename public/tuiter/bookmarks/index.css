@@ -1,3 +1,8 @@
+.wd-center-content {
+    width: 600px;
+    margin: auto;
+}
+
 h1 {
     font-size: 20px;
     margin-bottom: 0;
@@ -12,8 +17,9 @@ h3 {
 
 h4 {
     font-size: 15px;
-    margin: 5px 12px 12px;
+    margin: 0 12px 12px;
     width: 480px;
+    font-weight: normal;
 }
 
 h5, p {
@@ -22,6 +28,7 @@ h5, p {
 }
 
 h6 {
+    font-weight: normal;
     font-size: 15px;
     margin-top: 12px;
     margin-left: 5px;
@@ -32,7 +39,7 @@ ul {
     padding: 0;
 }
 
-span {
+li span {
     margin-left: 12px;
 }
 
@@ -47,12 +54,10 @@ span {
     font-size: 13px;
 }
 
-#title {
-    border-bottom-width: 0;
-}
-
-.wd-post {
-    border-top-width: 0;
+.wd-border {
+    border-style: solid;
+    border-color: rgb(47, 51, 54);
+    border-width: 0 0 1px 0;
 }
 
 .wd-avatar {
@@ -69,7 +74,7 @@ span {
     height: 264px;
     border-width: 0 0 1px 0;
     border-style: solid;
-    border-color: lightgray;
+    border-color: rgb(47, 51, 54);;
 }
 
 .wd-padding {
@@ -86,25 +91,25 @@ span {
 }
 
 .wd-content {
-    width: 506px;
+    max-width: 506px;
     margin-right: 16px;
     margin-bottom: 12px;
 }
 
-.wd-border {
+.wd-img-border {
     border-width: 1px;
     border-style: solid;
-    border-color: lightgray;
+    border-color: rgb(47, 51, 54);;
     border-radius: 20px;
     width: 504px;
     height: 100%;
 }
 
-.wd-links {
+.wd-icons {
     margin-top: 12px;
 }
 
-.wd-nav-tabs li {
+.wd-icon-tabs li {
     list-style-type: none;
     display: inline-block;
     margin-left: 80px;

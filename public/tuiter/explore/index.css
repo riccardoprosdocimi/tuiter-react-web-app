@@ -1,18 +1,18 @@
-/* borders -> rgb(47, 51, 54)
-   prefix classes -> wd-
-   content offset -> 16px from left border
-   2 posts of each C,D,E
- */
-body {
-    margin-left: 50px;
-    margin-right: 50px;
+.wd-center-content {
+    width: 585px;
+    margin: auto;
 }
 
 #search-field {
     border-radius: 50px;
     background-color: darkgray;
     margin-top: 5px;
-    width: 115%;
+    width: 120%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    color: white;
+    height: 20px;
 }
 
 ::placeholder {
@@ -25,8 +25,10 @@ body {
 }
 
 .wd-grid-settings {
+    margin-top: 7px;
     float: right;
     margin-right: 12px;
+    transform: scale(150%);
 }
 
 .wd-nav-tabs {
@@ -46,8 +48,12 @@ body {
     margin-bottom: 0;
 }
 
+#last-li {
+    margin-right: 0;
+}
+
 .wd-selected {
-    padding-bottom: 15px;
+    padding-bottom: 12px;
     border-bottom: solid 4px rgb(29, 161, 242);
 }
 
@@ -63,29 +69,30 @@ body {
     font-weight: bold;
 }
 
-.wd-tuits-count {
-    margin-top: 0;
-}
-
-.wd-top-tuit {
+.wd-topic {
     margin-top: 10px;
 }
 
-.wd-bottom-tuit {
+.wd-tuits-count {
+    margin-top: 0;
     margin-bottom: 10px;
 }
 
 h5, h6, span {
     font-size: 13px;
     margin-bottom: 0;
+    font-weight: normal;
 }
 
 h4 {
+    font-weight: normal;
+    font-size: 13px;
     margin-top: 10px;
     margin-bottom: 0;
 }
 
 h3 {
+    font-size: 14px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -95,18 +102,26 @@ h3 {
     width: 100px;
     border-radius: 20px;
     margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 .wd-grid-row {
     clear: both;
 }
 
+.wd-top-border {
+    border-style: solid;
+    border-width: 1px 0 0 0;
+    border-color: rgb(47, 51, 54);
+}
+
 .wd-grid-col-left-sidebar {
-    width: 75%;
+    width: 70%;
     float: left;
 }
 
 .wd-grid-col-right-sidebar {
+    position: relative;
     float: right;
     margin-right: 16px;
 }
