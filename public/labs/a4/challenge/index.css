@@ -1,0 +1,27 @@
+.wd-more-tab {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+}
+
+.wd-more-text {
+    position: relative;
+    left: -10px;
+}
+
+@media (min-width: 992px)
+and (max-width: 1200px) {
+    #tuit-button {
+        width: 130%!important;
+    }
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-position-text-over-image {
+    bottom: 0;
+    left: 10px;
+}
