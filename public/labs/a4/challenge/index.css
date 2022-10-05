@@ -21,7 +21,19 @@ and (max-width: 1200px) {
     left: 10px;
 }
 
+.wd-active {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 16px;
+    margin-right: 16px;
+    border-bottom: solid 5px rgb(29, 161, 242)!important;
+}
+
 .wd-position-text-over-image {
     bottom: 0;
     left: 10px;
+}
+
+.wd-border-color {
+    border: solid 1px rgb(47, 51, 54)!important;
 }

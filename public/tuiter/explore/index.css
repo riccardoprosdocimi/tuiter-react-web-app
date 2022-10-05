@@ -1,127 +1,27 @@
-.wd-center-content {
-    width: 585px;
-    margin: auto;
+.wd-more-tab {
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
 }
 
-#search-field {
-    border-radius: 50px;
-    background-color: darkgray;
-    margin-top: 5px;
-    width: 120%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: lightgray;
-    color: white;
-    height: 20px;
-}
-
-::placeholder {
-    color: white;
-    opacity: 1;
-}
-
-::-ms-input-placeholder {
-    color: white;
-}
-
-.wd-grid-settings {
-    margin-top: 7px;
-    float: right;
-    margin-right: 12px;
-    transform: scale(150%);
-}
-
-.wd-nav-tabs {
-    padding: 0;
-    margin-bottom: 0;
-}
-
-.wd-nav-tabs li {
-    font-size: 15px;
-    list-style-type: none;
-    display: inline-block;
-    margin: 16px;
-}
-
-#first-li {
-    margin-left: 0;
-    margin-bottom: 0;
-}
-
-#last-li {
-    margin-right: 0;
-}
-
-.wd-selected {
-    padding-bottom: 12px;
-    border-bottom: solid 4px rgb(29, 161, 242);
-}
-
-.wd-highlight-color {
-    color: rgb(29, 161, 242);
-}
-
-.wd-font-color {
-    color: rgb(110, 118, 125);
-}
-
-.wd-bold {
-    font-weight: bold;
-}
-
-.wd-topic {
-    margin-top: 10px;
-}
-
-.wd-tuits-count {
-    margin-top: 0;
-    margin-bottom: 10px;
-}
-
-h5, h6, span {
-    font-size: 13px;
-    margin-bottom: 0;
-    font-weight: normal;
-}
-
-h4 {
-    font-weight: normal;
-    font-size: 13px;
-    margin-top: 10px;
-    margin-bottom: 0;
-}
-
-h3 {
-    font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
-.wd-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
-}
-
-.wd-grid-row {
-    clear: both;
-}
-
-.wd-top-border {
-    border-style: solid;
-    border-width: 1px 0 0 0;
-    border-color: rgb(47, 51, 54);
-}
-
-.wd-grid-col-left-sidebar {
-    width: 70%;
-    float: left;
-}
-
-.wd-grid-col-right-sidebar {
+.wd-more-text {
     position: relative;
-    float: right;
-    margin-right: 16px;
+    left: -10px;
+}
+
+@media (min-width: 992px)
+and (max-width: 1200px) {
+    #tuit-button {
+        width: 130%!important;
+    }
+}
+
+.wd-search-tuiter {
+    bottom: 7px;
+    left: 10px;
+}
+
+.wd-position-text-over-image {
+    bottom: 0;
+    left: 10px;
 }
