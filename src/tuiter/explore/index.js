@@ -12,7 +12,7 @@ const ExploreComponent = () => {
                     <i className="bi bi-search position-absolute wd-nudge-up"/>
                 </div>
                 <div className="col-1">
-                    <a href="edit-settings">
+                    <a href="#">
                         <i className="bi bi-gear-fill wd-bottom-4 text-primary float-end fs-4 position-relative"/>
                     </a>
                 </div>
