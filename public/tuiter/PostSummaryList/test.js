@@ -1,6 +1,6 @@
-import PostList from "./PostList.js";
+import PostSummaryList from "./PostSummaryList.js";
 
 const test = () => {
-    $('#test').append(`${PostList()}`);
+    $('#test').append(`${PostSummaryList()}`);
 }
 $(test);

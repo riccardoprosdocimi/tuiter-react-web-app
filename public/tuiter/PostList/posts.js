@@ -18,7 +18,7 @@ let posts = [
         userName: 'New York Post',
         handle: 'nypost',
         time: '23h',
-        title: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk <span><a href="/">trib.al/nx2Gfaq</a></span> mission!',
+        title: 'Grimes seen reading Karl Marx following split with world\'s richest man Elon Musk <span><a href="/">trib.al/nx2Gfaq</a></span>',
         image: '../images/grimes-reading.jpg',
         comments: '965',
         retuits: '2.4K',

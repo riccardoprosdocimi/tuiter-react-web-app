@@ -2,7 +2,7 @@ const PostSummaryItem = post => {
     return(
         `<li class="list-group-item">
             <div class="row">
-                <div class="col-xxl-10 col-xl-9 col-lg-8 col-md-9 col-sm-9 col-">
+                <div class="col-xxl-10 col-xl-9 col-lg-8 col-md-9 col-sm-9">
                     <div class="text-secondary">
                         ${post.topic}
                     </div>
