@@ -8,19 +8,24 @@ const Nav = () => {
                      id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <a className="nav-link">
-                                <Link to="/hello">Hello</Link>
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link">
+                            <div className="nav-link">
                                 <Link to="/">Labs</Link>
-                            </a>
+                            </div>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link">
+                            <div className="nav-link">
+                                <Link to="/">Assignment 6</Link>
+                            </div>
+                        </li>
+                        <li className="nav-item">
+                            <div className="nav-link">
+                                <Link to="/a7">Assignment 7</Link>
+                            </div>
+                        </li>
+                        <li className="nav-item">
+                            <div className="nav-link">
                                 <Link to="/tuiter/home">Tuiter</Link>
-                            </a>
+                            </div>
                         </li>
                     </ul>
                 </div>
