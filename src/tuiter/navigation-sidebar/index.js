@@ -9,20 +9,20 @@ const NavigationSidebar = () => {
 
     return(
         <div className="list-group">
-            <a
-                href="#"
+            <Link
+                to="#"
                 className="list-group-item">
                 <i className="bi bi-fonts"/>
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Tuiter
                 </span>
-            </a>
+            </Link>
             <Link
-                to="/tuiter/home"
+                to="/tuiter"
                 className={
                 `list-group-item 
                 list-group-item-action 
-                ${active === 'home' ? 'active' : ''}`}>
+                ${active === undefined || active === '' ? 'active' : ''}`}>
                 <i className="bi bi-house-door-fill"/>
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Home
@@ -49,8 +49,8 @@ const NavigationSidebar = () => {
                     Labs
                 </span>
             </Link>
-            <a
-                href="#"
+            <Link
+                to="#"
                 className={
                     `list-group-item
                     list-group-item-action
@@ -60,9 +60,9 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Notifications
                 </span>
-            </a>
-            <a
-                href="#"
+            </Link>
+            <Link
+                to="#"
                 className={
                     `list-group-item 
                     list-group-item-action
@@ -72,9 +72,9 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1 ms-1">
                     Messages
                 </span>
-            </a>
-            <a
-                href="#"
+            </Link>
+            <Link
+                to="#"
                 className={
                     `list-group-item
                     list-group-item-action
@@ -84,9 +84,9 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Bookmarks
                 </span>
-            </a>
-            <a
-                href="#"
+            </Link>
+            <Link
+                to="#"
                 className={
                     `list-group-item
                     list-group-item-action
@@ -96,9 +96,9 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Lists
                 </span>
-            </a>
-            <a
-                href="#"
+            </Link>
+            <Link
+                to="/tuiter/profile"
                 className={
                     `list-group-item
                     list-group-item-action
@@ -108,9 +108,9 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     Profile
                 </span>
-            </a>
-            <a
-                href="#"
+            </Link>
+            <Link
+                to="#"
                 className={
                     `list-group-item
                     list-group-item-action
@@ -121,7 +121,7 @@ const NavigationSidebar = () => {
                 <span className="d-none d-lg-none d-xl-inline-block d-xxl-inline-block ms-1">
                     More
                 </span>
-            </a>
+            </Link>
         </div>
     );
 }

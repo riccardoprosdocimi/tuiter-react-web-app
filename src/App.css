@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+.wd-explore-nudge-up {
+  bottom: 18px;
+  left: 25px;
+}
+
+.wd-profile-nudge-up {
+  top: -100px;
+  left: 20px;
+}
+
+.wd-profile-nudge-down {
+  top: 120px;
+}
+
+.wd-clear-button-styling {
+  background-color: rgb(6,6,6);
+  border: 0;
+}
+
+.wd-bg-color {
+  background-color: rgb(6,6,6)!important;
+}
+
+a, a:link, a:hover, a:visited {
+  text-decoration: none !important;
+}
+
+.wd-tuit-liked {
+  color: red;
+}
+
+.wd-circle-x-banner-overlap {
+  left: 330px;
+  top: -150px;
+  color: black;
+  font-size: 50px;
+}
+
+.wd-x-banner-overlap {
+  left: 330px;
+  top: -150px;
+  color: white;
+  font-size: 50px;
+}
+
+.wd-circle-camera-banner-overlap {
+  left: 270px;
+  top: -150px;
+  color: black;
+  font-size: 50px;
+}
+
+.wd-camera-banner-overlap {
+  left: 280px;
+  top: -142px;
+  color: white;
+  font-size: 30px;
+}
+
+.wd-circle-avatar-overlap {
+  left: 95px;
+  top: -30px;
+  color: black;
+  font-size: 50px;
+}
+
+.wd-camera-avatar-overlap {
+  left: 105px;
+  top: -22px;
+  color: white;
+  font-size: 30px;
+}

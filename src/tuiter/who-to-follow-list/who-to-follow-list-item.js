@@ -16,7 +16,7 @@ const WhoToFollowListItem = ({who}) => {
                         <i className="bi bi-patch-check-fill"/>
                     </div>
                     <div className="text-dark">
-                        @{who.handle}
+                        {who.handle}
                     </div>
                 </div>
                 <div className="col-2 my-auto">

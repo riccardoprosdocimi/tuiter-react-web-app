@@ -24,7 +24,7 @@ const Nav = () => {
                         </li>
                         <li className="nav-item">
                             <div className="nav-link">
-                                <Link to="/tuiter/home">Tuiter</Link>
+                                <Link to="/tuiter">Tuiter</Link>
                             </div>
                         </li>
                     </ul>
