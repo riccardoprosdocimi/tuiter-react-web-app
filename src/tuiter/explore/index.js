@@ -5,10 +5,12 @@ const ExploreComponent = () => {
     return(
         <>
             <div className="row">
-                <div className="col-11 position-relative">
+                <div className="col-11">
                     <input className="form-control rounded-pill ps-5"
                            placeholder="Search Tuiter"/>
-                    <i className="bi bi-search position-absolute wd-explore-nudge-up"/>
+                    <div className="position-relative">
+                        <i className="bi bi-search position-absolute wd-explore-search-nudge-up"/>
+                    </div>
                 </div>
                 <div className="col-1">
                     <a href="#">
@@ -38,7 +40,7 @@ const ExploreComponent = () => {
             </ul>
             <div className="position-relative mb-2">
                 <img src="/images/starship.jpg" className="w-100" alt="spacex's starship"/>
-                <h1 className="position-absolute wd-explore-nudge-up text-white">
+                <h1 className="position-absolute wd-explore-text-nudge-up text-white">
                     SpaceX Starship
                 </h1>
             </div>

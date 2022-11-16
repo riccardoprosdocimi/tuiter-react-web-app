@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css"
 
 const PostItem = ({post}) => {
     if (post.imageTitle != null && post.imageDescription != null && post.link != null) {

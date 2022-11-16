@@ -1,54 +1,80 @@
-.App {
-  text-align: center;
+/*------------------------------Discarded------------------------------*/
+.wd-post-image-without-description {
+  border-radius: 20px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wd-center-content {
+  width: 600px!important;
+  margin: auto!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wd-bg-color {
+  background-color: rgb(6,6,6)!important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.wd-offset {
+  margin-left: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+.wd-post-border {
+  border-width: 0 0 1px 0!important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.wd-title-size {
+  font-size: 14px;
 }
 
-.wd-explore-nudge-up {
-  bottom: 18px;
-  left: 25px;
+.wd-image-description-size {
+  font-size: 12px;
 }
 
-.wd-profile-nudge-up {
-  top: -100px;
-  left: 20px;
+.wd-padding {
+  padding-left: 75px;
 }
 
-.wd-profile-nudge-down {
-  top: 120px;
+.wd-avatar {
+  width: 48px;
+  float: left;
+}
+
+.wd-grid-col-author {
+  float: left;
+}
+
+.wd-content-width {
+  width: 100%;
+  float: right;
+}
+
+.wd-post-image-with-description {
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  width: 100%;
+  border-width: 1px;
+  border-style: solid;
+}
+
+.wd-post-image-description {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+
+.wd-buttons-width {
+  width: 85%;
+}
+
+.wd-buttons-size {
+  font-size: 13px;
+}
+/*------------------------------Application------------------------------*/
+.wd-bg-color {
+  background-color: rgb(6,6,6)!important;
 }
 
 .wd-clear-button-styling {
@@ -56,16 +82,27 @@
   border: 0;
 }
 
-.wd-bg-color {
-  background-color: rgb(6,6,6)!important;
-}
-
 a, a:link, a:hover, a:visited {
   text-decoration: none !important;
 }
+/*------------------------------Explore Screen------------------------------*/
+.wd-explore-search-nudge-up {
+  bottom: 7px;
+  left: 15px;
+}
 
-.wd-tuit-liked {
-  color: red;
+.wd-explore-text-nudge-up {
+  bottom: 0;
+  left: 5px;
+}
+/*------------------------------Profile Screen------------------------------*/
+.wd-profile-nudge-up {
+  top: -100px;
+  left: 20px;
+}
+
+.wd-profile-nudge-down {
+  top: 120px;
 }
 
 .wd-circle-x-banner-overlap {
