@@ -35,7 +35,7 @@ const ProfileComponent = () => {
                  height={250}
                  alt="user's profile banner"/>
             <div className="position-relative">
-                <img src={`images/${user.profilePicture}`}
+                <img src={`/images/${user.profilePicture}`}
                      className="rounded-circle wd-profile-nudge-up position-absolute"
                      width={200}
                      alt="user's avatar"/>
