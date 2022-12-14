@@ -5,6 +5,7 @@
 /public/vendors/fontawesome
 /public/vendors/jquery
 yarn.lock
+.env
 
 # dependencies
 /node_modules

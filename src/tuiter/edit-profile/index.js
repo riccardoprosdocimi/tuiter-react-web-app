@@ -74,7 +74,7 @@ const EditProfile = () => {
                      className="opacity-50 position-absolute"
                      width="100%"
                      height={250}
-                     alt="user's profile banner"/>
+                     alt="null"/>
                 <img src={`/images/${banner}`}
                      className="opacity-50"
                      width="100%"
